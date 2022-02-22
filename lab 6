@@ -1,4 +1,7 @@
+#Gets the User's name
 name = input("Enter name :")
 print(name)
-number = input("Enter Number :")
+
+#Enters Users Favorite Number 
+number = input("Enter Favorite Number :")
 print (number)
