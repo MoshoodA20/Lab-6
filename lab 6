@@ -10,8 +10,6 @@ number = int(number)
 
 prime = "prime"
 for i in range(2,(number//2)+1): #super inefficent
-	if (number % i) == 0:
-		prime = "not prime"
-		break
-
+	prime = "prime"
+for i in range(2,(number//2)+1): #super inefficent
 print("Your favorite number is " + prime)
